@@ -1,0 +1,4 @@
+1 ../data_distributed/ skewed.txt
+15000 100 1000 82 8
+
+framework + SS, FQ

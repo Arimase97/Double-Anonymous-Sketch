@@ -1,17 +1,15 @@
 # Double-Anonymous Sketch: Achieving Fairness for Global Top-K Frequent Items
 
-This repository contains all the related code of our paper "Double-blind Sketch:  Achieving Fairness for Global Top-K Frequent Items". 
+This repository contains all the related code of our paper "Double-Anonymous Sketch:  Achieving Fairness for Global Top-K Frequent Items". 
 
 ## Introduction
 
-Finding top-K frequent items has been a hot topic in data stream processing in recent years, which has a wide range of applications. However, the body of existing sketch algorithms focuses on finding local top-K in a single data stream, while only a few focus on finding global top-K in distributed data streams, which is also important in the era of big data. We find that deploying existing sketch algorithms is often unfair under global scenarios, which will degrade the accuracy of global top-K. To achieve fairness, we propose a new sketch framework, called the Double-blind sketch. The process of finding global top-K items is similar to that of paper reviewing and democratic elections. In these scenarios, double-blindness is often an effective strategy to achieve fairness. We also propose two techniques, hot panning and early freezing, to rise accuracy further. We theoretically prove that the Double-blind sketch achieves fairness and derives an error bound strictly tighter than the well-known Count-Min sketch bound. We perform extensive experiments to verify fairness in the distributed scenario. The experimental results show that the Double-blind sketch’s error is up to 129 times (60 times on average) smaller than the state-of-the-art.
-
-
+Finding top-K frequent items has been a hot topic in data stream processing in recent years, which has a wide range of applications. However, the body of existing sketch algorithms focuses on finding local top-K in a single data stream, while only a few focus on finding global top-K in distributed data streams, which is also important in the era of big data. We find that deploying existing sketch algorithms is often unfair under global scenarios, which will degrade the accuracy of global top-K. To achieve fairness, we propose a new sketch framework, called the Double-Anonymous sketch. The process of finding global top-K items is similar to that of paper reviewing and democratic elections. In these scenarios, double-anonymity is often an effective strategy to achieve fairness. We also propose two techniques, hot panning, and early freezing, to rise accuracy further. We theoretically prove that the Double-Anonymous sketch achieves fairness and derives an error bound strictly tighter than the well-known Count-Min sketch bound. We perform extensive experiments to verify fairness in the distributed scenario. The experimental results show that the Double-Anonymous sketch’s error is up to 129 times (60 times on average) smaller than the state-of-the-art.
 
 
 ## About This Repository
 
-This repository contains all the related code for our experiments in the `src` directory. We have implemented four Double-blind applications for both finding local top-K items and finding global top-K items. Source codes for finding local top-K are located in `local_topk/`, and source codes for on finding global top-K items are located in `global_topk/`. We also compare our results with state-of-the-art approaches.
+This repository contains all the related code for our experiments in the `src` directory. We have implemented four Double-Anonymous applications for both finding local top-K items and finding global top-K items. Source codes for finding local top-K are located in `local_topk/`, and source codes for on finding global top-K items are located in `global_topk/`. We also compare our results with state-of-the-art approaches.
 
 
 

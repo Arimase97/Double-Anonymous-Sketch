@@ -1,4 +1,4 @@
-# Double-blind Sketch: Achieving Fairness for Global Top-K Frequent Items
+# Double-Anonymous Sketch: Achieving Fairness for Global Top-K Frequent Items
 
 This repository contains all the related code of our paper "Double-blind Sketch:  Achieving Fairness for Global Top-K Frequent Items". 
 
